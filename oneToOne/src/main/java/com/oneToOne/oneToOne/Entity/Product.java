@@ -13,14 +13,14 @@ import lombok.NoArgsConstructor;
 public class Product {
 @jakarta.persistence.Id
 @GeneratedValue
-private int Id;
+private int pId;
 private String pname;
 public int getId() {
-    return Id;
+    return pId;
 }
 
 public void setId(int id) {
-    this.Id = id;
+    this.pId = id;
 }
 
 public String getPname() {

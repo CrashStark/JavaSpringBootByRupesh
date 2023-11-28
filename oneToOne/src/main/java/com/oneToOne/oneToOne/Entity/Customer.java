@@ -2,8 +2,7 @@ package com.oneToOne.oneToOne.Entity;
 
 import java.util.List;
 
-
-
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.JoinColumn;
@@ -21,8 +20,8 @@ public class Customer {
 	@GeneratedValue
  private int Id;
  private String name;
- @OneToOne(targetEntity = Product.class)
- @JoinColumn(name ="cp_fk",referencedColumnName = "Id")
+ @OneToOne(targetEntity = Product.class, cascade = CascadeType.ALL)
+ @JoinColumn(name ="Id",referencedColumnName = "pId")
  private Product product;
  public int getId() {
      return Id;
