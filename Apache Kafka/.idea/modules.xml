@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Apache Kafka.iml" filepath="$PROJECT_DIR$/.idea/Apache Kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BaseDomain/BaseDomain/BaseDomain.iml" filepath="$PROJECT_DIR$/BaseDomain/BaseDomain/BaseDomain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EmailService/EmailService/EmailService.iml" filepath="$PROJECT_DIR$/EmailService/EmailService/EmailService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OrderService/OrderService/OrderService.iml" filepath="$PROJECT_DIR$/OrderService/OrderService/OrderService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StockService/StockService/StockService.iml" filepath="$PROJECT_DIR$/StockService/StockService/StockService.iml" />
+    </modules>
+  </component>
+</project>
